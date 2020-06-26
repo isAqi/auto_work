@@ -1,0 +1,41 @@
+log:
+  name: 'aqi'
+  filePath: "aqilog.txt"
+  logger_level: "INFO"
+  stream_level: "INFO"
+  file_level: "INFO"
+
+reports:
+  reportsPath: "reports"
+
+report:
+  path: "logs"
+
+excel:
+  file: "cases-interface.xlsx"
+
+db:
+  host: "120.78.128.25"
+  database: "futureloan"
+  port: 3306
+  user: "future"
+  password: "123456"
+  charset: "utf8"
+
+url:
+  domain: "http://api.lemonban.com/futureloan/"
+
+## 设置一个普通用户的账号
+login_success:
+  mobile_phone: "13655564554"
+  pwd: "123456789"
+
+## 设置一个超级管理员的账号
+login_admin:
+  mobile_phone: "18670715122"
+  pwd: "12345678"
+
+## 投资人
+login_investors:
+  mobile_phone: "18670715186"
+  pwd: "12345678"

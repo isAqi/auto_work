@@ -1,0 +1,2345 @@
+测试用例通过
+测试用例通过
+测试用例通过
+测试用例无法通过，预期结果：{'code': 1001, 'msg': '账号信息错误'}！=实际结果：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_login.py", line 38, in test_register
+    self.assertEqual(value, res.json()[key])
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1001 != 2
+
+测试用例通过
+测试用例无法通过，预期结果：{'code': 1, 'msg': '账号信息错误'}！=实际结果：{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_login.py", line 38, in test_register
+    self.assertEqual(value, res.json()[key])
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1001
+
+2020-06-12 17:14:50,636 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:50,852 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:50,916 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:50,981 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:51,041 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:51,091 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:51,149 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:51,223 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:51,321 test_register.py [line:56] INFO 测试用例通过
+2020-06-12 17:14:51,430 test_register.py [line:56] INFO 测试用例通过
+第 1 条测试用例通过
+第 2 条测试用例通过
+第 3 条测试用例通过
+第 4 条测试用例通过
+第 5 条测试用例通过
+第 6 条测试用例通过
+2020-06-12 17:24:32,874 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 17:24:33,103 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-12 17:24:33,181 test_register.py [line:56] INFO 第 3 条测试用例通过
+2020-06-12 17:24:33,241 test_register.py [line:56] INFO 第 4 条测试用例通过
+2020-06-12 17:24:33,301 test_register.py [line:56] INFO 第 5 条测试用例通过
+2020-06-12 17:24:33,383 test_register.py [line:56] INFO 第 6 条测试用例通过
+2020-06-12 17:24:33,447 test_register.py [line:56] INFO 第 7 条测试用例通过
+2020-06-12 17:24:33,504 test_register.py [line:56] INFO 第 8 条测试用例通过
+2020-06-12 17:24:33,563 test_register.py [line:56] INFO 第 9 条测试用例通过
+2020-06-12 17:24:33,621 test_register.py [line:56] INFO 第 10 条测试用例通过
+2020-06-12 17:46:39,274 test_login.py [line:40] INFO 第 1 条测试用例通过
+2020-06-12 17:46:39,349 test_login.py [line:40] INFO 第 2 条测试用例通过
+2020-06-12 17:46:39,415 test_login.py [line:40] INFO 第 3 条测试用例通过
+2020-06-12 17:46:39,486 test_login.py [line:40] INFO 第 4 条测试用例通过
+2020-06-12 17:46:39,542 test_login.py [line:40] INFO 第 5 条测试用例通过
+2020-06-12 17:46:39,628 test_login.py [line:40] INFO 第 6 条测试用例通过
+2020-06-12 17:46:40,016 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 17:46:40,247 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-12 17:46:40,303 test_register.py [line:56] INFO 第 3 条测试用例通过
+2020-06-12 17:46:40,365 test_register.py [line:56] INFO 第 4 条测试用例通过
+2020-06-12 17:46:40,428 test_register.py [line:56] INFO 第 5 条测试用例通过
+2020-06-12 17:46:40,490 test_register.py [line:56] INFO 第 6 条测试用例通过
+2020-06-12 17:46:40,549 test_register.py [line:56] INFO 第 7 条测试用例通过
+2020-06-12 17:46:40,607 test_register.py [line:56] INFO 第 8 条测试用例通过
+2020-06-12 17:46:40,678 test_register.py [line:56] INFO 第 9 条测试用例通过
+2020-06-12 17:46:40,743 test_register.py [line:56] INFO 第 10 条测试用例通过
+2020-06-12 18:05:44,571 test_login.py [line:40] INFO 第 1 条测试用例通过
+2020-06-12 18:05:44,658 test_login.py [line:40] INFO 第 2 条测试用例通过
+2020-06-12 18:05:44,757 test_login.py [line:40] INFO 第 3 条测试用例通过
+2020-06-12 18:05:44,834 test_login.py [line:40] INFO 第 4 条测试用例通过
+2020-06-12 18:05:44,913 test_login.py [line:40] INFO 第 5 条测试用例通过
+2020-06-12 18:05:45,001 test_login.py [line:40] INFO 第 6 条测试用例通过
+2020-06-12 18:05:45,445 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 18:05:45,703 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-12 18:05:45,765 test_register.py [line:56] INFO 第 3 条测试用例通过
+2020-06-12 18:05:45,832 test_register.py [line:56] INFO 第 4 条测试用例通过
+2020-06-12 18:05:45,910 test_register.py [line:56] INFO 第 5 条测试用例通过
+2020-06-12 18:05:45,992 test_register.py [line:56] INFO 第 6 条测试用例通过
+2020-06-12 18:05:46,058 test_register.py [line:56] INFO 第 7 条测试用例通过
+2020-06-12 18:05:46,161 test_register.py [line:56] INFO 第 8 条测试用例通过
+2020-06-12 18:05:46,229 test_register.py [line:56] INFO 第 9 条测试用例通过
+2020-06-12 18:05:46,290 test_register.py [line:56] INFO 第 10 条测试用例通过
+2020-06-12 21:37:34,041 test_login.py [line:40] INFO 第 1 条测试用例通过
+2020-06-12 21:37:35,210 test_login.py [line:40] INFO 第 2 条测试用例通过
+2020-06-12 21:37:35,305 test_login.py [line:40] INFO 第 3 条测试用例通过
+2020-06-12 21:37:35,452 test_login.py [line:40] INFO 第 4 条测试用例通过
+2020-06-12 21:37:35,637 test_login.py [line:40] INFO 第 5 条测试用例通过
+2020-06-12 21:37:35,781 test_login.py [line:40] INFO 第 6 条测试用例通过
+2020-06-12 21:37:36,954 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 21:37:37,459 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-12 21:37:37,638 test_register.py [line:56] INFO 第 3 条测试用例通过
+2020-06-12 21:37:37,768 test_register.py [line:56] INFO 第 4 条测试用例通过
+2020-06-12 21:37:37,903 test_register.py [line:56] INFO 第 5 条测试用例通过
+2020-06-12 21:37:38,112 test_register.py [line:56] INFO 第 6 条测试用例通过
+2020-06-12 21:37:39,816 test_register.py [line:56] INFO 第 7 条测试用例通过
+2020-06-12 21:37:40,095 test_register.py [line:56] INFO 第 8 条测试用例通过
+2020-06-12 21:37:40,271 test_register.py [line:56] INFO 第 9 条测试用例通过
+2020-06-12 21:37:40,389 test_register.py [line:56] INFO 第 10 条测试用例通过
+2020-06-12 21:39:33,710 test_login.py [line:40] INFO 第 1 条测试用例通过
+2020-06-12 21:39:33,793 test_login.py [line:40] INFO 第 2 条测试用例通过
+2020-06-12 21:39:33,876 test_login.py [line:40] INFO 第 3 条测试用例通过
+2020-06-12 21:39:33,945 test_login.py [line:40] INFO 第 4 条测试用例通过
+2020-06-12 21:39:34,007 test_login.py [line:40] INFO 第 5 条测试用例通过
+2020-06-12 21:39:34,094 test_login.py [line:40] INFO 第 6 条测试用例通过
+2020-06-12 21:39:34,483 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 21:39:34,698 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-12 21:39:34,770 test_register.py [line:56] INFO 第 3 条测试用例通过
+2020-06-12 21:39:34,832 test_register.py [line:56] INFO 第 4 条测试用例通过
+2020-06-12 21:39:34,909 test_register.py [line:56] INFO 第 5 条测试用例通过
+2020-06-12 21:39:34,973 test_register.py [line:56] INFO 第 6 条测试用例通过
+2020-06-12 21:39:35,069 test_register.py [line:56] INFO 第 7 条测试用例通过
+2020-06-12 21:39:35,142 test_register.py [line:56] INFO 第 8 条测试用例通过
+2020-06-12 21:39:35,224 test_register.py [line:56] INFO 第 9 条测试用例通过
+2020-06-12 21:39:35,283 test_register.py [line:56] INFO 第 10 条测试用例通过
+2020-06-12 21:39:49,605 test_login.py [line:40] INFO 第 1 条测试用例通过
+2020-06-12 21:39:49,678 test_login.py [line:40] INFO 第 2 条测试用例通过
+2020-06-12 21:39:49,750 test_login.py [line:40] INFO 第 3 条测试用例通过
+2020-06-12 21:39:49,807 test_login.py [line:40] INFO 第 4 条测试用例通过
+2020-06-12 21:39:49,879 test_login.py [line:40] INFO 第 5 条测试用例通过
+2020-06-12 21:39:49,966 test_login.py [line:40] INFO 第 6 条测试用例通过
+2020-06-12 21:39:50,375 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 21:39:50,601 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-12 21:39:50,669 test_register.py [line:56] INFO 第 3 条测试用例通过
+2020-06-12 21:39:50,722 test_register.py [line:56] INFO 第 4 条测试用例通过
+2020-06-12 21:39:50,792 test_register.py [line:56] INFO 第 5 条测试用例通过
+2020-06-12 21:39:50,863 test_register.py [line:56] INFO 第 6 条测试用例通过
+2020-06-12 21:39:50,953 test_register.py [line:56] INFO 第 7 条测试用例通过
+2020-06-12 21:39:51,023 test_register.py [line:56] INFO 第 8 条测试用例通过
+2020-06-12 21:39:51,093 test_register.py [line:56] INFO 第 9 条测试用例通过
+2020-06-12 21:39:51,155 test_register.py [line:56] INFO 第 10 条测试用例通过
+2020-06-12 22:56:53,188 test_login.py [line:40] INFO 第 1 条测试用例通过
+2020-06-12 22:56:53,248 test_login.py [line:40] INFO 第 2 条测试用例通过
+2020-06-12 22:56:53,308 test_login.py [line:40] INFO 第 3 条测试用例通过
+2020-06-12 22:56:53,388 test_login.py [line:40] INFO 第 4 条测试用例通过
+2020-06-12 22:56:53,448 test_login.py [line:40] INFO 第 5 条测试用例通过
+2020-06-12 22:56:53,528 test_login.py [line:40] INFO 第 6 条测试用例通过
+2020-06-12 22:56:54,529 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 22:56:54,739 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-12 22:56:54,789 test_register.py [line:56] INFO 第 3 条测试用例通过
+2020-06-12 22:56:54,859 test_register.py [line:56] INFO 第 4 条测试用例通过
+2020-06-12 22:56:54,909 test_register.py [line:56] INFO 第 5 条测试用例通过
+2020-06-12 22:56:54,969 test_register.py [line:56] INFO 第 6 条测试用例通过
+2020-06-12 22:56:55,028 test_register.py [line:56] INFO 第 7 条测试用例通过
+2020-06-12 22:56:55,096 test_register.py [line:56] INFO 第 8 条测试用例通过
+2020-06-12 22:56:55,156 test_register.py [line:56] INFO 第 9 条测试用例通过
+2020-06-12 22:56:55,217 test_register.py [line:56] INFO 第 10 条测试用例通过
+2020-06-12 22:57:41,369 test_login.py [line:40] INFO 第 1 条测试用例通过
+2020-06-12 22:58:12,513 test_login.py [line:40] INFO 第 2 条测试用例通过
+2020-06-12 22:58:16,922 test_login.py [line:40] INFO 第 3 条测试用例通过
+2020-06-12 22:58:21,803 test_login.py [line:40] INFO 第 4 条测试用例通过
+2020-06-12 22:58:55,352 test_login.py [line:40] INFO 第 5 条测试用例通过
+2020-06-12 22:58:59,735 test_login.py [line:40] INFO 第 6 条测试用例通过
+2020-06-12 23:01:22,365 test_register.py [line:56] INFO 第 1 条测试用例通过
+2020-06-12 23:01:28,403 test_register.py [line:56] INFO 第 2 条测试用例通过
+2020-06-14 22:11:25,280 test_login.py [line:40] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-14 22:11:25,320 test_login.py [line:41] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_login.py", line 37, in test_login
+    self.assertEqual(value, res.json()[key])
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+2020-06-14 22:11:25,391 test_login.py [line:40] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '手机号码为空'}！=实际结果：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-14 22:11:25,391 test_login.py [line:41] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_login.py", line 37, in test_login
+    self.assertEqual(value, res.json()[key])
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+
+2020-06-14 22:11:25,450 test_login.py [line:38] INFO 第 3 条测试用例通过
+2020-06-14 22:11:25,510 test_login.py [line:38] INFO 第 4 条测试用例通过
+2020-06-14 22:11:25,590 test_login.py [line:38] INFO 第 5 条测试用例通过
+2020-06-14 22:11:25,670 test_login.py [line:38] INFO 第 6 条测试用例通过
+2020-06-14 22:22:45,762 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-14 22:22:45,822 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-14 22:22:45,902 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-14 22:22:45,982 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-14 22:22:46,067 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-14 22:22:55,227 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-14 22:22:55,307 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-14 22:22:55,367 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-14 22:22:55,417 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-14 22:22:55,497 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-14 22:22:55,607 test_register.py [line:53] INFO 第 3 条测试用例通过
+2020-06-14 22:22:55,667 test_register.py [line:53] INFO 第 4 条测试用例通过
+2020-06-14 22:22:55,757 test_register.py [line:53] INFO 第 5 条测试用例通过
+2020-06-14 22:22:55,827 test_register.py [line:53] INFO 第 6 条测试用例通过
+2020-06-14 22:22:56,128 test_register.py [line:53] INFO 第 7 条测试用例通过
+2020-06-14 22:22:56,413 test_register.py [line:53] INFO 第 8 条测试用例通过
+2020-06-14 22:22:56,713 test_register.py [line:53] INFO 第 9 条测试用例通过
+2020-06-14 22:22:56,883 test_register.py [line:53] INFO 第 10 条测试用例通过
+2020-06-14 22:25:35,058 test_login.py [line:44] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-14 22:25:35,058 test_login.py [line:45] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_login.py", line 41, in test_login
+    self.assertEqual(value, res.json()[key])
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+
+2020-06-14 22:25:35,177 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-14 22:25:35,343 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-14 22:25:35,523 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-14 22:25:35,675 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-14 22:25:35,926 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-14 22:25:36,430 test_register.py [line:53] INFO 第 1 条测试用例通过
+2020-06-14 22:25:36,670 test_register.py [line:53] INFO 第 2 条测试用例通过
+2020-06-14 22:25:36,740 test_register.py [line:53] INFO 第 3 条测试用例通过
+2020-06-14 22:25:36,800 test_register.py [line:53] INFO 第 4 条测试用例通过
+2020-06-14 22:25:36,870 test_register.py [line:53] INFO 第 5 条测试用例通过
+2020-06-14 22:25:36,940 test_register.py [line:53] INFO 第 6 条测试用例通过
+2020-06-14 22:25:37,003 test_register.py [line:53] INFO 第 7 条测试用例通过
+2020-06-14 22:25:37,058 test_register.py [line:53] INFO 第 8 条测试用例通过
+2020-06-14 22:25:37,118 test_register.py [line:53] INFO 第 9 条测试用例通过
+2020-06-14 22:25:37,198 test_register.py [line:53] INFO 第 10 条测试用例通过
+2020-06-15 10:51:53,645 test_login.py [line:42] INFO 第 1 条测试用例通过
+2020-06-15 10:51:53,735 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-15 10:51:53,805 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-15 10:51:53,885 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-15 10:51:53,945 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-15 10:51:54,015 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-15 10:51:54,497 test_register.py [line:53] INFO 第 1 条测试用例通过
+2020-06-15 10:51:54,577 test_register.py [line:53] INFO 第 2 条测试用例通过
+2020-06-15 10:51:54,647 test_register.py [line:53] INFO 第 3 条测试用例通过
+2020-06-15 10:51:54,708 test_register.py [line:53] INFO 第 4 条测试用例通过
+2020-06-15 10:51:54,758 test_register.py [line:53] INFO 第 5 条测试用例通过
+2020-06-15 10:51:54,898 test_register.py [line:53] INFO 第 6 条测试用例通过
+2020-06-15 10:51:54,958 test_register.py [line:53] INFO 第 7 条测试用例通过
+2020-06-15 10:51:55,018 test_register.py [line:53] INFO 第 8 条测试用例通过
+2020-06-15 10:51:55,080 test_register.py [line:53] INFO 第 9 条测试用例通过
+2020-06-15 10:51:55,130 test_register.py [line:53] INFO 第 10 条测试用例通过
+2020-06-15 12:12:40,248 test_login.py [line:42] INFO 第 1 条测试用例通过
+2020-06-15 12:12:40,308 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-15 12:12:40,358 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-15 12:12:40,438 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-15 12:12:40,508 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-15 12:12:40,578 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-15 12:13:56,457 test_login.py [line:42] INFO 第 1 条测试用例通过
+2020-06-15 12:14:02,912 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-15 12:14:04,988 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-15 12:14:06,693 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-15 12:14:08,055 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-15 12:14:09,241 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-15 12:15:28,684 test_login.py [line:42] INFO 第 1 条测试用例通过
+2020-06-15 12:15:28,744 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-15 12:15:28,804 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-15 12:15:28,874 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-15 12:15:28,934 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-15 12:15:29,004 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-15 12:16:41,981 test_login.py [line:42] INFO 第 1 条测试用例通过
+2020-06-15 12:16:42,050 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-15 12:16:42,164 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-15 12:16:42,273 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-15 12:16:42,353 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-15 12:16:42,420 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-15 12:16:42,951 test_register.py [line:53] INFO 第 1 条测试用例通过
+2020-06-15 12:16:43,119 test_register.py [line:53] INFO 第 2 条测试用例通过
+2020-06-15 12:16:43,233 test_register.py [line:53] INFO 第 3 条测试用例通过
+2020-06-15 12:16:43,363 test_register.py [line:53] INFO 第 4 条测试用例通过
+2020-06-15 12:16:43,493 test_register.py [line:53] INFO 第 5 条测试用例通过
+2020-06-15 12:16:43,623 test_register.py [line:53] INFO 第 6 条测试用例通过
+2020-06-15 12:16:43,753 test_register.py [line:53] INFO 第 7 条测试用例通过
+2020-06-15 12:16:43,863 test_register.py [line:53] INFO 第 8 条测试用例通过
+2020-06-15 12:16:44,003 test_register.py [line:53] INFO 第 9 条测试用例通过
+2020-06-15 12:16:44,124 test_register.py [line:53] INFO 第 10 条测试用例通过
+2020-06-15 12:19:13,825 test_login.py [line:42] INFO 第 1 条测试用例通过
+2020-06-15 12:19:13,885 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-15 12:19:13,935 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-15 12:19:13,995 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-15 12:19:14,054 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-15 12:19:14,151 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-15 12:19:14,681 test_register.py [line:54] INFO 第 1 条测试用例通过
+2020-06-15 12:19:14,831 test_register.py [line:54] INFO 第 2 条测试用例通过
+2020-06-15 12:19:14,961 test_register.py [line:54] INFO 第 3 条测试用例通过
+2020-06-15 12:19:15,075 test_register.py [line:54] INFO 第 4 条测试用例通过
+2020-06-15 12:19:15,222 test_register.py [line:54] INFO 第 5 条测试用例通过
+2020-06-15 12:19:15,343 test_register.py [line:54] INFO 第 6 条测试用例通过
+2020-06-15 12:19:15,469 test_register.py [line:54] INFO 第 7 条测试用例通过
+2020-06-15 12:19:15,599 test_register.py [line:54] INFO 第 8 条测试用例通过
+2020-06-15 12:19:15,719 test_register.py [line:54] INFO 第 9 条测试用例通过
+2020-06-15 12:19:15,849 test_register.py [line:54] INFO 第 10 条测试用例通过
+2020-06-15 12:23:50,948 test_login.py [line:42] INFO 第 1 条测试用例通过
+2020-06-15 12:23:51,084 test_login.py [line:42] INFO 第 2 条测试用例通过
+2020-06-15 12:23:51,222 test_login.py [line:42] INFO 第 3 条测试用例通过
+2020-06-15 12:23:51,397 test_login.py [line:42] INFO 第 4 条测试用例通过
+2020-06-15 12:23:51,557 test_login.py [line:42] INFO 第 5 条测试用例通过
+2020-06-15 12:23:51,727 test_login.py [line:42] INFO 第 6 条测试用例通过
+2020-06-15 12:23:52,328 test_register.py [line:54] INFO 第 1 条测试用例通过
+2020-06-15 12:23:52,468 test_register.py [line:54] INFO 第 2 条测试用例通过
+2020-06-15 12:23:52,588 test_register.py [line:54] INFO 第 3 条测试用例通过
+2020-06-15 12:23:52,729 test_register.py [line:54] INFO 第 4 条测试用例通过
+2020-06-15 12:23:52,859 test_register.py [line:54] INFO 第 5 条测试用例通过
+2020-06-15 12:23:52,979 test_register.py [line:54] INFO 第 6 条测试用例通过
+2020-06-15 12:23:53,114 test_register.py [line:54] INFO 第 7 条测试用例通过
+2020-06-15 12:23:53,303 test_register.py [line:54] INFO 第 8 条测试用例通过
+2020-06-15 12:23:53,481 test_register.py [line:54] INFO 第 9 条测试用例通过
+2020-06-15 12:23:53,621 test_register.py [line:54] INFO 第 10 条测试用例通过
+2020-06-17 22:05:04,665 test_login.py [line:50] INFO 第 1 条测试用例通过
+2020-06-17 22:05:04,874 test_login.py [line:50] INFO 第 2 条测试用例通过
+2020-06-17 22:05:04,987 test_login.py [line:50] INFO 第 4 条测试用例通过
+2020-06-17 22:05:05,103 test_login.py [line:50] INFO 第 5 条测试用例通过
+2020-06-17 22:05:05,431 test_login.py [line:50] INFO 第 6 条测试用例通过
+2020-06-17 22:05:05,764 test_login.py [line:50] INFO 第 7 条测试用例通过
+2020-06-17 22:07:44,988 test_login.py [line:50] INFO 第 1 条测试用例通过
+2020-06-17 22:07:45,152 test_login.py [line:50] INFO 第 2 条测试用例通过
+2020-06-17 22:07:45,380 test_login.py [line:50] INFO 第 4 条测试用例通过
+2020-06-17 22:07:45,545 test_login.py [line:50] INFO 第 5 条测试用例通过
+2020-06-17 22:07:45,901 test_login.py [line:50] INFO 第 6 条测试用例通过
+2020-06-17 22:07:46,262 test_login.py [line:50] INFO 第 7 条测试用例通过
+2020-06-17 22:07:46,880 test_register.py [line:53] INFO 第 1 条测试用例通过
+2020-06-17 22:07:47,294 test_register.py [line:53] INFO 第 2 条测试用例通过
+2020-06-17 22:07:47,468 test_register.py [line:53] INFO 第 3 条测试用例通过
+2020-06-17 22:07:47,623 test_register.py [line:53] INFO 第 4 条测试用例通过
+2020-06-17 22:07:47,764 test_register.py [line:53] INFO 第 5 条测试用例通过
+2020-06-17 22:07:47,927 test_register.py [line:53] INFO 第 6 条测试用例通过
+2020-06-17 22:07:48,084 test_register.py [line:53] INFO 第 7 条测试用例通过
+2020-06-17 22:07:48,231 test_register.py [line:53] INFO 第 8 条测试用例通过
+2020-06-17 22:07:48,377 test_register.py [line:53] INFO 第 9 条测试用例通过
+2020-06-17 22:07:48,522 test_register.py [line:53] INFO 第 10 条测试用例通过
+2020-06-17 22:16:15,735 test_login.py [line:50] INFO 第 1 条测试用例通过
+2020-06-17 22:16:15,905 test_login.py [line:50] INFO 第 2 条测试用例通过
+2020-06-17 22:16:16,340 test_login.py [line:54] ERROR 测试用例无法通过，预期结果：{'code': '1001', 'msg': '账号信息错误'}！=实际结果：{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 22:16:16,351 test_login.py [line:55] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_login.py", line 49, in test_login
+    self.assertEqual(value, res.json()[key])
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '1001' != 1001
+
+2020-06-17 22:16:16,428 test_login.py [line:50] INFO 第 4 条测试用例通过
+2020-06-17 22:16:16,566 test_login.py [line:50] INFO 第 5 条测试用例通过
+2020-06-17 22:16:16,920 test_login.py [line:50] INFO 第 6 条测试用例通过
+2020-06-17 22:16:17,277 test_login.py [line:50] INFO 第 7 条测试用例通过
+2020-06-17 22:16:17,438 test_login.py [line:50] INFO 第 8 条测试用例通过
+2020-06-17 22:16:17,619 test_login.py [line:50] INFO 第 9 条测试用例通过
+2020-06-17 22:16:18,330 test_register.py [line:53] INFO 第 1 条测试用例通过
+2020-06-17 22:16:18,694 test_register.py [line:53] INFO 第 2 条测试用例通过
+2020-06-17 22:16:18,844 test_register.py [line:53] INFO 第 3 条测试用例通过
+2020-06-17 22:16:18,999 test_register.py [line:53] INFO 第 4 条测试用例通过
+2020-06-17 22:16:19,150 test_register.py [line:53] INFO 第 5 条测试用例通过
+2020-06-17 22:16:19,293 test_register.py [line:53] INFO 第 6 条测试用例通过
+2020-06-17 22:16:19,445 test_register.py [line:53] INFO 第 7 条测试用例通过
+2020-06-17 22:16:19,595 test_register.py [line:53] INFO 第 8 条测试用例通过
+2020-06-17 22:16:19,728 test_register.py [line:53] INFO 第 9 条测试用例通过
+2020-06-17 22:16:19,918 test_register.py [line:53] INFO 第 10 条测试用例通过
+2020-06-17 22:26:49,533 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 22:27:06,329 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 22:28:25,769 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 22:28:27,217 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 22:31:52,588 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 22:31:54,989 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 22:34:41,465 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 22:36:13,087 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 22:38:20,259 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 22:58:37,491 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 22:58:41,895 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:10:27,285 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:10:30,407 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:12:18,830 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:12:21,705 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:15:29,774 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:15:33,176 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:17:13,204 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:17:16,493 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:18:36,226 test_register.py [line:28] INFO *********************************************进入注册接口测试*********************************************
+2020-06-17 23:18:37,962 test_register.py [line:32] INFO *********************************************退出注册接口测试*********************************************
+2020-06-17 23:19:11,879 test_register.py [line:28] INFO *********************************************进入注册接口测试*********************************************
+2020-06-17 23:19:12,567 test_register.py [line:61] INFO 第 1 条测试用例通过
+2020-06-17 23:19:12,936 test_register.py [line:61] INFO 第 2 条测试用例通过
+2020-06-17 23:19:13,086 test_register.py [line:61] INFO 第 3 条测试用例通过
+2020-06-17 23:19:13,228 test_register.py [line:61] INFO 第 4 条测试用例通过
+2020-06-17 23:19:13,373 test_register.py [line:61] INFO 第 5 条测试用例通过
+2020-06-17 23:19:13,532 test_register.py [line:61] INFO 第 6 条测试用例通过
+2020-06-17 23:19:13,692 test_register.py [line:61] INFO 第 7 条测试用例通过
+2020-06-17 23:19:13,828 test_register.py [line:61] INFO 第 8 条测试用例通过
+2020-06-17 23:19:13,981 test_register.py [line:61] INFO 第 9 条测试用例通过
+2020-06-17 23:19:14,122 test_register.py [line:61] INFO 第 10 条测试用例通过
+2020-06-17 23:19:14,123 test_register.py [line:32] INFO *********************************************退出注册接口测试*********************************************
+2020-06-17 23:19:23,272 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:19:23,818 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:23,820 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1003
+
+2020-06-17 23:19:24,158 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:24,160 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1003
+
+2020-06-17 23:19:24,488 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:24,488 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1003
+
+2020-06-17 23:19:24,797 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:24,798 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1003
+
+2020-06-17 23:19:25,053 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:25,054 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1003
+
+2020-06-17 23:19:25,312 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 1007, 'msg': '无权限访问，请检查参数'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:25,313 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1007 != 1003
+
+2020-06-17 23:19:25,599 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '数字格式化异常'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:25,600 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1003
+
+2020-06-17 23:19:25,861 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '数字格式化异常'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:25,862 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1003
+
+2020-06-17 23:19:26,128 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须为数值型'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:26,129 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1003
+
+2020-06-17 23:19:26,411 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额小数超过两位'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:26,412 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1003
+
+2020-06-17 23:19:26,754 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:26,755 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1003
+
+2020-06-17 23:19:27,019 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:27,020 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1003
+
+2020-06-17 23:19:27,291 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:27,292 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1003
+
+2020-06-17 23:19:27,637 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须为数值型'}！=实际结果：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '无法解析的JSON值，请检查token或Authorization请求头'}
+2020-06-17 23:19:27,638 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1003
+
+2020-06-17 23:19:27,640 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:21:41,851 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:21:46,833 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:22:48,864 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:25:41,932 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:27:55,989 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:29:49,700 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:31:47,236 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:36:31,199 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:36:35,369 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:38:34,343 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:38:34,904 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 503313.26, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:38:34,906 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:38:35,319 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 503979.86, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:38:35,320 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:38:35,729 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 504646.52, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:38:35,730 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:38:36,132 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 1004646.52, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:38:36,134 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:38:36,546 test_recharge.py [line:78] INFO 第 6 条测试用例通过
+2020-06-17 23:38:36,826 test_recharge.py [line:78] INFO 第 7 条测试用例通过
+2020-06-17 23:38:37,088 test_recharge.py [line:78] INFO 第 8 条测试用例通过
+2020-06-17 23:38:37,351 test_recharge.py [line:78] INFO 第 9 条测试用例通过
+2020-06-17 23:38:37,619 test_recharge.py [line:78] INFO 第 10 条测试用例通过
+2020-06-17 23:38:38,033 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 1004646.52, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:38:38,034 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:38:38,297 test_recharge.py [line:78] INFO 第 12 条测试用例通过
+2020-06-17 23:38:38,586 test_recharge.py [line:78] INFO 第 13 条测试用例通过
+2020-06-17 23:38:38,844 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须为数值型'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:38:38,845 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须为数值型' != '数字格式化异常'
+- 余额必须为数值型
++ 数字格式化异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 余额必须为数值型 != 数字格式化异常
+
+2020-06-17 23:38:38,847 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:43:00,177 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:43:00,802 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 1005312.52, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:43:00,805 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:43:01,250 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 1005979.12, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:43:01,251 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:43:01,664 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 1006645.78, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:43:01,665 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:43:02,066 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 1506645.78, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:43:02,067 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:43:02,481 test_recharge.py [line:78] INFO 第 6 条测试用例通过
+2020-06-17 23:43:02,765 test_recharge.py [line:78] INFO 第 7 条测试用例通过
+2020-06-17 23:43:03,020 test_recharge.py [line:78] INFO 第 8 条测试用例通过
+2020-06-17 23:43:03,268 test_recharge.py [line:78] INFO 第 9 条测试用例通过
+2020-06-17 23:43:03,523 test_recharge.py [line:78] INFO 第 10 条测试用例通过
+2020-06-17 23:43:03,909 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 1506645.78, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:43:03,910 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 27, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:43:04,202 test_recharge.py [line:78] INFO 第 12 条测试用例通过
+2020-06-17 23:43:04,472 test_recharge.py [line:78] INFO 第 13 条测试用例通过
+2020-06-17 23:43:04,735 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须为数值型'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:43:04,735 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须为数值型' != '数字格式化异常'
+- 余额必须为数值型
++ 数字格式化异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 余额必须为数值型 != 数字格式化异常
+
+2020-06-17 23:43:04,738 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:43:11,290 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:46:11,491 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:46:12,081 test_recharge.py [line:78] INFO 第 1 条测试用例通过
+2020-06-17 23:46:12,459 test_recharge.py [line:78] INFO 第 2 条测试用例通过
+2020-06-17 23:46:12,940 test_recharge.py [line:78] INFO 第 3 条测试用例通过
+2020-06-17 23:46:13,309 test_recharge.py [line:78] INFO 第 4 条测试用例通过
+2020-06-17 23:46:13,737 test_recharge.py [line:78] INFO 第 6 条测试用例通过
+2020-06-17 23:46:14,009 test_recharge.py [line:78] INFO 第 7 条测试用例通过
+2020-06-17 23:46:14,261 test_recharge.py [line:78] INFO 第 8 条测试用例通过
+2020-06-17 23:46:14,526 test_recharge.py [line:78] INFO 第 9 条测试用例通过
+2020-06-17 23:46:14,816 test_recharge.py [line:78] INFO 第 10 条测试用例通过
+2020-06-17 23:46:15,238 test_recharge.py [line:78] INFO 第 11 条测试用例通过
+2020-06-17 23:46:15,533 test_recharge.py [line:78] INFO 第 12 条测试用例通过
+2020-06-17 23:46:15,785 test_recharge.py [line:78] INFO 第 13 条测试用例通过
+2020-06-17 23:46:16,044 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须为数值型'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:46:16,045 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须为数值型' != '数字格式化异常'
+- 余额必须为数值型
++ 数字格式化异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 余额必须为数值型 != 数字格式化异常
+
+2020-06-17 23:46:16,047 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:58:57,723 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:58:58,366 test_recharge.py [line:78] INFO 第 1 条测试用例通过
+2020-06-17 23:58:58,770 test_recharge.py [line:78] INFO 第 2 条测试用例通过
+2020-06-17 23:58:59,180 test_recharge.py [line:78] INFO 第 3 条测试用例通过
+2020-06-17 23:58:59,530 test_recharge.py [line:78] INFO 第 4 条测试用例通过
+2020-06-17 23:58:59,929 test_recharge.py [line:78] INFO 第 6 条测试用例通过
+2020-06-17 23:59:00,218 test_recharge.py [line:78] INFO 第 7 条测试用例通过
+2020-06-17 23:59:00,482 test_recharge.py [line:78] INFO 第 8 条测试用例通过
+2020-06-17 23:59:00,783 test_recharge.py [line:78] INFO 第 9 条测试用例通过
+2020-06-17 23:59:01,075 test_recharge.py [line:78] INFO 第 10 条测试用例通过
+2020-06-17 23:59:01,438 test_recharge.py [line:78] INFO 第 11 条测试用例通过
+2020-06-17 23:59:01,719 test_recharge.py [line:78] INFO 第 12 条测试用例通过
+2020-06-17 23:59:01,970 test_recharge.py [line:78] INFO 第 13 条测试用例通过
+2020-06-17 23:59:02,253 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须为数值型'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:59:02,254 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须为数值型' != '数字格式化异常'
+- 余额必须为数值型
++ 数字格式化异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 余额必须为数值型 != 数字格式化异常
+
+2020-06-17 23:59:02,256 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-17 23:59:24,076 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-17 23:59:40,624 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 2511976.3, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:59:43,895 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 29, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:59:47,308 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 2512642.9, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:59:47,310 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 29, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:59:48,715 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 2513309.56, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:59:48,716 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 29, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-17 23:59:49,597 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 3013309.56, 'mobile_phone': '13655564554', 'reg_name': '檬檬', 'reg_time': '2020-06-03 16:33:12.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-17 23:59:49,599 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 74, in test_recharge
+    after_amount = self.db.query(after_sql)['leave_amount']
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\common\pymsq_handler.py", line 29, in query
+    self.cursor.execute(sql)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\DlmSw\Python3.1\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1046, 'No database selected')
+
+2020-06-18 00:01:36,889 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-18 00:01:41,602 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-18 00:02:22,282 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-18 00:02:23,145 test_recharge.py [line:78] INFO 第 1 条测试用例通过
+2020-06-18 00:02:23,587 test_recharge.py [line:78] INFO 第 2 条测试用例通过
+2020-06-18 00:02:24,079 test_recharge.py [line:78] INFO 第 3 条测试用例通过
+2020-06-18 00:02:24,543 test_recharge.py [line:78] INFO 第 4 条测试用例通过
+2020-06-18 00:02:25,028 test_recharge.py [line:78] INFO 第 6 条测试用例通过
+2020-06-18 00:02:25,298 test_recharge.py [line:78] INFO 第 7 条测试用例通过
+2020-06-18 00:02:25,635 test_recharge.py [line:78] INFO 第 8 条测试用例通过
+2020-06-18 00:02:25,993 test_recharge.py [line:78] INFO 第 9 条测试用例通过
+2020-06-18 00:02:26,256 test_recharge.py [line:78] INFO 第 10 条测试用例通过
+2020-06-18 00:02:26,784 test_recharge.py [line:78] INFO 第 11 条测试用例通过
+2020-06-18 00:02:27,063 test_recharge.py [line:78] INFO 第 12 条测试用例通过
+2020-06-18 00:02:27,379 test_recharge.py [line:78] INFO 第 13 条测试用例通过
+2020-06-18 00:02:27,681 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须为数值型'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 00:02:27,682 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须为数值型' != '数字格式化异常'
+- 余额必须为数值型
++ 数字格式化异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 余额必须为数值型 != 数字格式化异常
+
+2020-06-18 00:02:27,685 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-18 00:13:52,609 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-18 00:13:57,739 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-18 00:14:03,264 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-18 00:14:03,812 test_recharge.py [line:78] INFO 第 1 条测试用例通过
+2020-06-18 00:14:04,213 test_recharge.py [line:78] INFO 第 2 条测试用例通过
+2020-06-18 00:14:04,652 test_recharge.py [line:78] INFO 第 3 条测试用例通过
+2020-06-18 00:14:05,337 test_recharge.py [line:78] INFO 第 4 条测试用例通过
+2020-06-18 00:14:05,679 test_recharge.py [line:78] INFO 第 5 条测试用例通过
+2020-06-18 00:14:05,953 test_recharge.py [line:78] INFO 第 6 条测试用例通过
+2020-06-18 00:14:06,220 test_recharge.py [line:78] INFO 第 7 条测试用例通过
+2020-06-18 00:14:06,491 test_recharge.py [line:78] INFO 第 8 条测试用例通过
+2020-06-18 00:14:06,809 test_recharge.py [line:78] INFO 第 9 条测试用例通过
+2020-06-18 00:14:07,085 test_recharge.py [line:78] INFO 第 10 条测试用例通过
+2020-06-18 00:14:07,478 test_recharge.py [line:78] INFO 第 11 条测试用例通过
+2020-06-18 00:14:07,747 test_recharge.py [line:78] INFO 第 12 条测试用例通过
+2020-06-18 00:14:08,025 test_recharge.py [line:78] INFO 第 13 条测试用例通过
+2020-06-18 00:14:08,319 test_recharge.py [line:78] INFO 第 14 条测试用例通过
+2020-06-18 00:14:08,640 test_recharge.py [line:78] INFO 第 15 条测试用例通过
+2020-06-18 00:14:08,641 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-18 16:24:23,141 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-18 16:24:25,329 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-18 16:24:57,195 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-18 16:25:01,700 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-18 16:25:14,300 test_recharge.py [line:26] INFO *********************************************进入充值接口测试*********************************************
+2020-06-18 16:25:14,923 test_recharge.py [line:78] INFO 第 1 条测试用例通过
+2020-06-18 16:25:15,332 test_recharge.py [line:78] INFO 第 2 条测试用例通过
+2020-06-18 16:25:15,776 test_recharge.py [line:78] INFO 第 3 条测试用例通过
+2020-06-18 16:25:16,177 test_recharge.py [line:78] INFO 第 4 条测试用例通过
+2020-06-18 16:25:16,434 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1, 'msg': '用户id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:16,436 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1
+
+2020-06-18 16:25:16,737 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:16,738 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1007
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1007
+
+2020-06-18 16:25:17,006 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:17,007 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:17,272 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:17,272 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:17,578 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:17,579 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:17,863 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:17,863 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:18,249 test_recharge.py [line:78] INFO 第 11 条测试用例通过
+2020-06-18 16:25:18,489 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:18,489 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:18,978 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:18,979 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:19,239 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:19,240 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:19,495 test_recharge.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 16:25:19,496 test_recharge.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_recharge.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+
+2020-06-18 16:25:19,498 test_recharge.py [line:39] INFO *********************************************退出充值接口测试*********************************************
+2020-06-18 19:20:48,263 test_withdraw.py [line:26] INFO *********************************************进入提现接口测试*********************************************
+2020-06-18 19:20:50,142 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:50,162 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1004
+
+2020-06-18 19:20:50,456 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '会员不存在'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:50,457 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:50,889 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '数值参数格式不正确'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:50,889 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:51,404 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '数值参数格式不正确'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:51,405 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:51,773 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 1007, 'msg': '无权限访问，请检查参数'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:51,774 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1007 != 1004
+
+2020-06-18 19:20:52,092 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:52,093 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:52,550 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:52,550 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1004
+
+2020-06-18 19:20:52,983 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:52,983 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1004
+
+2020-06-18 19:20:53,294 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:53,295 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:53,754 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:53,754 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1004
+
+2020-06-18 19:20:54,149 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:54,150 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1004
+
+2020-06-18 19:20:54,519 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:54,519 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1004
+
+2020-06-18 19:20:54,813 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '余额小数超过两位'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:54,813 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:56,501 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 1002, 'msg': '余额不足'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:56,502 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1002 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1002 != 1004
+
+2020-06-18 19:20:56,813 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '数值参数格式不正确'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:56,814 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:57,158 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 2, 'msg': '数值参数格式不正确'}！=实际结果：{'code': 1004, 'msg': 'No handler found for POST /futureloan//member/withdraw%20', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:20:57,158 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 1004
+
+2020-06-18 19:20:57,161 test_withdraw.py [line:39] INFO *********************************************退出提现接口测试*********************************************
+2020-06-18 19:24:45,073 test_withdraw.py [line:26] INFO *********************************************进入提现接口测试*********************************************
+2020-06-18 19:24:45,489 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1, 'msg': '会员id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:24:45,491 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户id为空' != '会员id为空'
+- 用户id为空
++ 会员id为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户id为空 != 会员id为空
+
+2020-06-18 19:24:45,764 test_withdraw.py [line:88] INFO 第 2 条测试用例通过
+2020-06-18 19:24:46,074 test_withdraw.py [line:88] INFO 第 3 条测试用例通过
+2020-06-18 19:24:46,335 test_withdraw.py [line:88] INFO 第 4 条测试用例通过
+2020-06-18 19:24:46,668 test_withdraw.py [line:91] ERROR 测试用例无法通过，预期结果：{'code': 1007, 'msg': '无权限访问，请检查参数'}！=实际结果：{'code': 1002, 'msg': '余额不足', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-18 19:24:46,669 test_withdraw.py [line:92] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 1002
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_withdraw.py", line 77, in test_withdraw
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1007 != 1002
+
+2020-06-18 19:24:46,951 test_withdraw.py [line:88] INFO 第 6 条测试用例通过
+2020-06-18 19:24:47,352 test_withdraw.py [line:85] INFO 第 7 条测试用例通过 提现前金额：500000.00 - 提现金额：0 - 提现后金额：500000.00
+2020-06-18 19:24:47,464 test_withdraw.py [line:88] INFO 第 7 条测试用例通过
+2020-06-18 19:24:47,763 test_withdraw.py [line:85] INFO 第 8 条测试用例通过 提现前金额：500000.00 - 提现金额：500000 - 提现后金额：0.00
+2020-06-18 19:24:47,859 test_withdraw.py [line:88] INFO 第 8 条测试用例通过
+2020-06-18 19:24:48,146 test_withdraw.py [line:88] INFO 第 9 条测试用例通过
+2020-06-18 19:24:48,487 test_withdraw.py [line:85] INFO 第 10 条测试用例通过 提现前金额：499999.99 - 提现金额：1 - 提现后金额：499998.99
+2020-06-18 19:24:48,597 test_withdraw.py [line:88] INFO 第 10 条测试用例通过
+2020-06-18 19:24:48,899 test_withdraw.py [line:85] INFO 第 11 条测试用例通过 提现前金额：499998.99 - 提现金额：1.1 - 提现后金额：499997.89
+2020-06-18 19:24:48,997 test_withdraw.py [line:88] INFO 第 11 条测试用例通过
+2020-06-18 19:24:49,299 test_withdraw.py [line:85] INFO 第 12 条测试用例通过 提现前金额：499997.89 - 提现金额：1.11 - 提现后金额：499996.78
+2020-06-18 19:24:49,397 test_withdraw.py [line:88] INFO 第 12 条测试用例通过
+2020-06-18 19:24:49,668 test_withdraw.py [line:88] INFO 第 13 条测试用例通过
+2020-06-18 19:24:49,959 test_withdraw.py [line:88] INFO 第 14 条测试用例通过
+2020-06-18 19:24:50,247 test_withdraw.py [line:88] INFO 第 15 条测试用例通过
+2020-06-18 19:24:50,571 test_withdraw.py [line:88] INFO 第 16 条测试用例通过
+2020-06-18 19:24:50,572 test_withdraw.py [line:39] INFO *********************************************退出提现接口测试*********************************************
+2020-06-18 19:28:20,970 test_withdraw.py [line:26] INFO *********************************************进入提现接口测试*********************************************
+2020-06-18 19:28:21,453 test_withdraw.py [line:88] INFO 第 1 条测试用例通过
+2020-06-18 19:28:21,735 test_withdraw.py [line:88] INFO 第 2 条测试用例通过
+2020-06-18 19:28:22,027 test_withdraw.py [line:88] INFO 第 3 条测试用例通过
+2020-06-18 19:28:22,333 test_withdraw.py [line:88] INFO 第 4 条测试用例通过
+2020-06-18 19:28:22,623 test_withdraw.py [line:88] INFO 第 5 条测试用例通过
+2020-06-18 19:28:22,905 test_withdraw.py [line:88] INFO 第 6 条测试用例通过
+2020-06-18 19:28:23,309 test_withdraw.py [line:85] INFO 第 7 条测试用例通过 提现前金额：500000.00 - 提现金额：0 - 提现后金额：500000.00
+2020-06-18 19:28:23,416 test_withdraw.py [line:88] INFO 第 7 条测试用例通过
+2020-06-18 19:28:23,698 test_withdraw.py [line:85] INFO 第 8 条测试用例通过 提现前金额：500000.00 - 提现金额：500000 - 提现后金额：0.00
+2020-06-18 19:28:23,793 test_withdraw.py [line:88] INFO 第 8 条测试用例通过
+2020-06-18 19:28:24,068 test_withdraw.py [line:88] INFO 第 9 条测试用例通过
+2020-06-18 19:28:24,428 test_withdraw.py [line:85] INFO 第 10 条测试用例通过 提现前金额：499999.99 - 提现金额：1 - 提现后金额：499998.99
+2020-06-18 19:28:24,527 test_withdraw.py [line:88] INFO 第 10 条测试用例通过
+2020-06-18 19:28:24,803 test_withdraw.py [line:85] INFO 第 11 条测试用例通过 提现前金额：499998.99 - 提现金额：1.1 - 提现后金额：499997.89
+2020-06-18 19:28:24,900 test_withdraw.py [line:88] INFO 第 11 条测试用例通过
+2020-06-18 19:28:25,180 test_withdraw.py [line:85] INFO 第 12 条测试用例通过 提现前金额：499997.89 - 提现金额：1.11 - 提现后金额：499996.78
+2020-06-18 19:28:25,276 test_withdraw.py [line:88] INFO 第 12 条测试用例通过
+2020-06-18 19:28:25,538 test_withdraw.py [line:88] INFO 第 13 条测试用例通过
+2020-06-18 19:28:25,804 test_withdraw.py [line:88] INFO 第 14 条测试用例通过
+2020-06-18 19:28:26,160 test_withdraw.py [line:88] INFO 第 15 条测试用例通过
+2020-06-18 19:28:26,431 test_withdraw.py [line:88] INFO 第 16 条测试用例通过
+2020-06-18 19:28:26,431 test_withdraw.py [line:39] INFO *********************************************退出提现接口测试*********************************************
+2020-06-19 20:02:54,448 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:02:56,867 test_add.py [line:78] INFO 第 1 条测试用例通过
+2020-06-19 20:02:59,571 test_add.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1004, 'msg': 'JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "1.5": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String "1.5": not a valid Long value\n at [Source: (PushbackInputStream); line: 1, column: 15] (through reference chain: com.lemon.pojo.Loan["member_id"])', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:02:59,572 test_add.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1004
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1004
+
+2020-06-19 20:02:59,948 test_add.py [line:81] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:02:59,949 test_add.py [line:82] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1007
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 69, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1007
+
+2020-06-19 20:03:02,998 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 20:21:19,564 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:21:24,114 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 20:21:49,234 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:22:00,205 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 20:22:11,098 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:30:36,195 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:30:36,815 test_add.py [line:80] INFO 第 1 条测试用例通过
+2020-06-19 20:30:37,886 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 2, 'msg': '会员不存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:30:37,886 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 2
+
+2020-06-19 20:30:38,273 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:30:38,274 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1007
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1007
+
+2020-06-19 20:30:38,630 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:30:38,630 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1007
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1007
+
+2020-06-19 20:30:41,863 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 20:30:50,116 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:41:56,602 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:42:06,534 test_add.py [line:80] INFO 第 28 条测试用例通过
+2020-06-19 20:42:06,897 test_add.py [line:80] INFO 第 29 条测试用例通过
+2020-06-19 20:42:07,260 test_add.py [line:80] INFO 第 30 条测试用例通过
+2020-06-19 20:42:07,704 test_add.py [line:80] INFO 第 31 条测试用例通过
+2020-06-19 20:42:08,142 test_add.py [line:80] INFO 第 32 条测试用例通过
+2020-06-19 20:42:08,928 test_add.py [line:80] INFO 第 35 条测试用例通过
+2020-06-19 20:42:09,045 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 20:42:12,025 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:42:12,867 test_add.py [line:80] INFO 第 1 条测试用例通过
+2020-06-19 20:42:13,295 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1, 'msg': '标题为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:13,297 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户id为空' != '标题为空'
+- 用户id为空
++ 标题为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户id为空 != 标题为空
+
+2020-06-19 20:42:13,694 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1, 'msg': '借款金额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:13,695 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户id为空' != '借款金额为空'
+- 用户id为空
++ 借款金额为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户id为空 != 借款金额为空
+
+2020-06-19 20:42:14,088 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1, 'msg': '利率为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:14,089 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户id为空' != '利率为空'
+- 用户id为空
++ 利率为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户id为空 != 利率为空
+
+2020-06-19 20:42:14,510 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1, 'msg': '借款期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:14,511 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户id为空' != '借款期限为空'
+- 用户id为空
++ 借款期限为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户id为空 != 借款期限为空
+
+2020-06-19 20:42:14,878 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1, 'msg': '借款日期类型为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:14,878 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户id为空' != '借款日期类型为空'
+- 用户id为空
++ 借款日期类型为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户id为空 != 借款日期类型为空
+
+2020-06-19 20:42:15,258 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1, 'msg': '竞标期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:15,259 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户id为空' != '竞标期限为空'
+- 用户id为空
++ 竞标期限为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户id为空 != 竞标期限为空
+
+2020-06-19 20:42:15,676 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 2, 'msg': '会员不存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:15,677 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 2
+
+2020-06-19 20:42:16,096 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:16,096 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1007
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1007
+
+2020-06-19 20:42:16,493 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '用户id为空'}！=实际结果：{'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:42:16,494 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1007
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 71, in test_recharge
+    self.assertEqual(value, res.json()[key])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 1007
+
+2020-06-19 20:42:16,884 test_add.py [line:80] INFO 第 11 条测试用例通过
+2020-06-19 20:42:17,275 test_add.py [line:80] INFO 第 12 条测试用例通过
+2020-06-19 20:42:17,668 test_add.py [line:80] INFO 第 13 条测试用例通过
+2020-06-19 20:42:18,258 test_add.py [line:80] INFO 第 15 条测试用例通过
+2020-06-19 20:42:18,664 test_add.py [line:80] INFO 第 16 条测试用例通过
+2020-06-19 20:42:19,028 test_add.py [line:80] INFO 第 17 条测试用例通过
+2020-06-19 20:42:19,610 test_add.py [line:80] INFO 第 19 条测试用例通过
+2020-06-19 20:42:20,024 test_add.py [line:80] INFO 第 20 条测试用例通过
+2020-06-19 20:42:20,431 test_add.py [line:80] INFO 第 21 条测试用例通过
+2020-06-19 20:42:21,036 test_add.py [line:80] INFO 第 23 条测试用例通过
+2020-06-19 20:42:21,513 test_add.py [line:80] INFO 第 24 条测试用例通过
+2020-06-19 20:42:21,949 test_add.py [line:80] INFO 第 25 条测试用例通过
+2020-06-19 20:42:22,649 test_add.py [line:80] INFO 第 27 条测试用例通过
+2020-06-19 20:42:23,069 test_add.py [line:80] INFO 第 28 条测试用例通过
+2020-06-19 20:42:23,496 test_add.py [line:80] INFO 第 29 条测试用例通过
+2020-06-19 20:42:23,973 test_add.py [line:80] INFO 第 30 条测试用例通过
+2020-06-19 20:42:24,403 test_add.py [line:80] INFO 第 31 条测试用例通过
+2020-06-19 20:42:24,789 test_add.py [line:80] INFO 第 32 条测试用例通过
+2020-06-19 20:42:25,631 test_add.py [line:80] INFO 第 35 条测试用例通过
+2020-06-19 20:42:25,747 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 20:52:25,104 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:52:25,649 test_add.py [line:80] INFO 第 1 条测试用例通过
+2020-06-19 20:52:26,099 test_add.py [line:80] INFO 第 2 条测试用例通过
+2020-06-19 20:52:26,441 test_add.py [line:80] INFO 第 3 条测试用例通过
+2020-06-19 20:52:26,814 test_add.py [line:80] INFO 第 4 条测试用例通过
+2020-06-19 20:52:27,133 test_add.py [line:80] INFO 第 5 条测试用例通过
+2020-06-19 20:52:27,431 test_add.py [line:80] INFO 第 6 条测试用例通过
+2020-06-19 20:52:27,733 test_add.py [line:80] INFO 第 7 条测试用例通过
+2020-06-19 20:52:28,052 test_add.py [line:80] INFO 第 8 条测试用例通过
+2020-06-19 20:52:28,422 test_add.py [line:80] INFO 第 9 条测试用例通过
+2020-06-19 20:52:28,757 test_add.py [line:80] INFO 第 10 条测试用例通过
+2020-06-19 20:52:29,073 test_add.py [line:80] INFO 第 11 条测试用例通过
+2020-06-19 20:52:29,398 test_add.py [line:80] INFO 第 12 条测试用例通过
+2020-06-19 20:52:29,730 test_add.py [line:80] INFO 第 13 条测试用例通过
+2020-06-19 20:52:30,171 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 1241074, 'member_id': 2, 'title': '阿七做项目', 'amount': 100.0, 'loan_rate': 20.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-06-19 20:52:29.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:52:30,172 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 78, in test_recharge
+    self.assertEqual(before_count + 1, after_count)
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+
+2020-06-19 20:52:30,500 test_add.py [line:80] INFO 第 15 条测试用例通过
+2020-06-19 20:52:30,828 test_add.py [line:80] INFO 第 16 条测试用例通过
+2020-06-19 20:52:31,139 test_add.py [line:80] INFO 第 17 条测试用例通过
+2020-06-19 20:52:31,561 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 1241075, 'member_id': 2, 'title': '阿七做项目', 'amount': 100.0, 'loan_rate': 1.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-06-19 20:52:30.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:52:31,561 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 78, in test_recharge
+    self.assertEqual(before_count + 1, after_count)
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+
+2020-06-19 20:52:31,876 test_add.py [line:80] INFO 第 19 条测试用例通过
+2020-06-19 20:52:32,191 test_add.py [line:80] INFO 第 20 条测试用例通过
+2020-06-19 20:52:32,495 test_add.py [line:80] INFO 第 21 条测试用例通过
+2020-06-19 20:52:32,951 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 1241076, 'member_id': 2, 'title': '阿七做项目', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-06-19 20:52:32.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:52:32,951 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 78, in test_recharge
+    self.assertEqual(before_count + 1, after_count)
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+
+2020-06-19 20:52:33,262 test_add.py [line:80] INFO 第 23 条测试用例通过
+2020-06-19 20:52:33,672 test_add.py [line:80] INFO 第 24 条测试用例通过
+2020-06-19 20:52:33,997 test_add.py [line:80] INFO 第 25 条测试用例通过
+2020-06-19 20:52:34,464 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 1241077, 'member_id': 2, 'title': '阿七做项目', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 11, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-06-19 20:52:33.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:52:34,465 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 78, in test_recharge
+    self.assertEqual(before_count + 1, after_count)
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+
+2020-06-19 20:52:34,784 test_add.py [line:80] INFO 第 27 条测试用例通过
+2020-06-19 20:52:35,100 test_add.py [line:80] INFO 第 28 条测试用例通过
+2020-06-19 20:52:35,492 test_add.py [line:80] INFO 第 29 条测试用例通过
+2020-06-19 20:52:35,818 test_add.py [line:80] INFO 第 30 条测试用例通过
+2020-06-19 20:52:36,136 test_add.py [line:80] INFO 第 31 条测试用例通过
+2020-06-19 20:52:36,453 test_add.py [line:80] INFO 第 32 条测试用例通过
+2020-06-19 20:52:36,900 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 1241078, 'member_id': 2, 'title': '阿七做项目', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 11, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-06-19 20:52:36.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:52:36,900 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 78, in test_recharge
+    self.assertEqual(before_count + 1, after_count)
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+
+2020-06-19 20:52:37,329 test_add.py [line:83] ERROR 测试用例无法通过，预期结果：{'code': 0, 'msg': 'OK'}！=实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 1241079, 'member_id': 2, 'title': '阿七做项目', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 11, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-06-19 20:52:36.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 20:52:37,329 test_add.py [line:84] ERROR Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_add.py", line 78, in test_recharge
+    self.assertEqual(before_count + 1, after_count)
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+
+2020-06-19 20:52:37,645 test_add.py [line:80] INFO 第 35 条测试用例通过
+2020-06-19 20:52:37,646 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 20:53:58,297 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:53:58,960 test_add.py [line:81] INFO 第 1 条测试用例通过
+2020-06-19 20:53:59,407 test_add.py [line:81] INFO 第 2 条测试用例通过
+2020-06-19 20:53:59,851 test_add.py [line:81] INFO 第 3 条测试用例通过
+2020-06-19 20:54:00,331 test_add.py [line:81] INFO 第 4 条测试用例通过
+2020-06-19 20:54:00,769 test_add.py [line:81] INFO 第 5 条测试用例通过
+2020-06-19 20:54:01,225 test_add.py [line:81] INFO 第 6 条测试用例通过
+2020-06-19 20:54:01,738 test_add.py [line:81] INFO 第 7 条测试用例通过
+2020-06-19 20:54:02,224 test_add.py [line:81] INFO 第 8 条测试用例通过
+2020-06-19 20:54:02,691 test_add.py [line:81] INFO 第 9 条测试用例通过
+2020-06-19 20:54:03,224 test_add.py [line:81] INFO 第 10 条测试用例通过
+2020-06-19 20:54:03,677 test_add.py [line:81] INFO 第 11 条测试用例通过
+2020-06-19 20:54:04,132 test_add.py [line:81] INFO 第 12 条测试用例通过
+2020-06-19 20:54:04,626 test_add.py [line:81] INFO 第 13 条测试用例通过
+2020-06-19 20:55:25,452 test_add.py [line:26] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 20:55:25,992 test_add.py [line:80] INFO 第 1 条测试用例通过
+2020-06-19 20:55:26,369 test_add.py [line:80] INFO 第 2 条测试用例通过
+2020-06-19 20:55:26,698 test_add.py [line:80] INFO 第 3 条测试用例通过
+2020-06-19 20:55:27,038 test_add.py [line:80] INFO 第 4 条测试用例通过
+2020-06-19 20:55:27,440 test_add.py [line:80] INFO 第 5 条测试用例通过
+2020-06-19 20:55:27,765 test_add.py [line:80] INFO 第 6 条测试用例通过
+2020-06-19 20:55:28,082 test_add.py [line:80] INFO 第 7 条测试用例通过
+2020-06-19 20:55:28,377 test_add.py [line:80] INFO 第 8 条测试用例通过
+2020-06-19 20:55:28,685 test_add.py [line:80] INFO 第 9 条测试用例通过
+2020-06-19 20:55:29,002 test_add.py [line:80] INFO 第 10 条测试用例通过
+2020-06-19 20:55:29,289 test_add.py [line:80] INFO 第 11 条测试用例通过
+2020-06-19 20:55:29,602 test_add.py [line:80] INFO 第 12 条测试用例通过
+2020-06-19 20:55:29,900 test_add.py [line:80] INFO 第 13 条测试用例通过
+2020-06-19 20:55:30,361 test_add.py [line:80] INFO 第 14 条测试用例通过
+2020-06-19 20:55:30,663 test_add.py [line:80] INFO 第 15 条测试用例通过
+2020-06-19 20:55:30,981 test_add.py [line:80] INFO 第 16 条测试用例通过
+2020-06-19 20:55:31,273 test_add.py [line:80] INFO 第 17 条测试用例通过
+2020-06-19 20:55:31,744 test_add.py [line:80] INFO 第 18 条测试用例通过
+2020-06-19 20:55:32,036 test_add.py [line:80] INFO 第 19 条测试用例通过
+2020-06-19 20:55:32,344 test_add.py [line:80] INFO 第 20 条测试用例通过
+2020-06-19 20:55:32,692 test_add.py [line:80] INFO 第 21 条测试用例通过
+2020-06-19 20:55:33,161 test_add.py [line:80] INFO 第 22 条测试用例通过
+2020-06-19 20:55:33,453 test_add.py [line:80] INFO 第 23 条测试用例通过
+2020-06-19 20:55:33,782 test_add.py [line:80] INFO 第 24 条测试用例通过
+2020-06-19 20:55:34,090 test_add.py [line:80] INFO 第 25 条测试用例通过
+2020-06-19 20:55:34,519 test_add.py [line:80] INFO 第 26 条测试用例通过
+2020-06-19 20:55:34,834 test_add.py [line:80] INFO 第 27 条测试用例通过
+2020-06-19 20:55:35,132 test_add.py [line:80] INFO 第 28 条测试用例通过
+2020-06-19 20:55:35,438 test_add.py [line:80] INFO 第 29 条测试用例通过
+2020-06-19 20:55:35,738 test_add.py [line:80] INFO 第 30 条测试用例通过
+2020-06-19 20:55:36,051 test_add.py [line:80] INFO 第 31 条测试用例通过
+2020-06-19 20:55:36,380 test_add.py [line:80] INFO 第 32 条测试用例通过
+2020-06-19 20:55:36,851 test_add.py [line:80] INFO 第 33 条测试用例通过
+2020-06-19 20:55:37,288 test_add.py [line:80] INFO 第 34 条测试用例通过
+2020-06-19 20:55:37,594 test_add.py [line:80] INFO 第 35 条测试用例通过
+2020-06-19 20:55:37,595 test_add.py [line:39] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:00:41,543 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:00:45,436 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:03:24,473 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:03:31,129 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:06:42,703 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:06:43,931 test_audit.py [line:94] INFO 第 1 条测试用例通过
+2020-06-19 23:06:44,639 test_audit.py [line:94] INFO 第 2 条测试用例通过
+2020-06-19 23:06:45,784 test_audit.py [line:97] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': '项目id为空'}！=实际结果：{'code': 1, 'msg': 'approved_or_not为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 23:06:45,785 test_audit.py [line:98] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '项目id为空' != 'approved_or_not为空'
+- 项目id为空
++ approved_or_not为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_audit.py", line 82, in test_audit
+    self.assertEqual(expected_results["msg"], actual_results["msg"])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 项目id为空 != approved_or_not为空
+
+2020-06-19 23:06:46,389 test_audit.py [line:97] ERROR 测试用例无法通过，预期结果：{'code': 1, 'msg': 'approved_or_not为空'}！=实际结果：{'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-06-19 23:06:46,390 test_audit.py [line:98] ERROR Traceback (most recent call last):
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\DlmSw\Python3.1\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'approved_or_not为空' != '项目id为空'
+- approved_or_not为空
++ 项目id为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Xuexi\Python-CheshiStudy\auto_framework1\tests\test_audit.py", line 82, in test_audit
+    self.assertEqual(expected_results["msg"], actual_results["msg"])
+  File "E:\DlsmSwSoftware\pycharm\PyCharm Community Edition 2019.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: approved_or_not为空 != 项目id为空
+
+2020-06-19 23:06:47,400 test_audit.py [line:94] INFO 第 7 条测试用例通过
+2020-06-19 23:06:47,401 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:11:38,160 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:11:42,646 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:11:51,521 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:11:52,464 test_audit.py [line:94] INFO 第 1 条测试用例通过
+2020-06-19 23:11:53,114 test_audit.py [line:94] INFO 第 2 条测试用例通过
+2020-06-19 23:11:54,161 test_audit.py [line:94] INFO 第 4 条测试用例通过
+2020-06-19 23:11:54,749 test_audit.py [line:94] INFO 第 5 条测试用例通过
+2020-06-19 23:11:55,882 test_audit.py [line:94] INFO 第 7 条测试用例通过
+2020-06-19 23:11:55,882 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:13:35,587 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:13:57,396 test_audit.py [line:94] INFO 第 1 条测试用例通过
+2020-06-19 23:14:01,590 test_audit.py [line:94] INFO 第 2 条测试用例通过
+2020-06-19 23:14:12,348 test_audit.py [line:94] INFO 第 3 条测试用例通过
+2020-06-19 23:14:17,553 test_audit.py [line:94] INFO 第 4 条测试用例通过
+2020-06-19 23:14:23,388 test_audit.py [line:94] INFO 第 5 条测试用例通过
+2020-06-19 23:15:41,726 test_audit.py [line:94] INFO 第 7 条测试用例通过
+2020-06-19 23:15:41,728 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:15:51,310 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:15:52,285 test_audit.py [line:94] INFO 第 1 条测试用例通过
+2020-06-19 23:15:52,944 test_audit.py [line:94] INFO 第 2 条测试用例通过
+2020-06-19 23:15:53,656 test_audit.py [line:94] INFO 第 3 条测试用例通过
+2020-06-19 23:15:54,240 test_audit.py [line:94] INFO 第 4 条测试用例通过
+2020-06-19 23:15:54,822 test_audit.py [line:94] INFO 第 5 条测试用例通过
+2020-06-19 23:15:55,744 test_audit.py [line:94] INFO 第 7 条测试用例通过
+2020-06-19 23:15:55,745 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:17:50,986 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:17:55,832 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
+2020-06-19 23:18:02,511 test_audit.py [line:25] INFO *********************************************进入新增项目接口测试*********************************************
+2020-06-19 23:18:03,423 test_audit.py [line:94] INFO 第 1 条测试用例通过
+2020-06-19 23:18:04,123 test_audit.py [line:94] INFO 第 2 条测试用例通过
+2020-06-19 23:18:04,887 test_audit.py [line:94] INFO 第 3 条测试用例通过
+2020-06-19 23:18:05,500 test_audit.py [line:94] INFO 第 4 条测试用例通过
+2020-06-19 23:18:06,104 test_audit.py [line:94] INFO 第 5 条测试用例通过
+2020-06-19 23:18:06,719 test_audit.py [line:94] INFO 第 6 条测试用例通过
+2020-06-19 23:18:07,337 test_audit.py [line:94] INFO 第 7 条测试用例通过
+2020-06-19 23:18:07,338 test_audit.py [line:43] INFO *********************************************退出新增项目接口测试*********************************************
